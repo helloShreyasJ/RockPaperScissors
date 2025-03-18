@@ -1,0 +1,32 @@
+* {
+    font-family:Roboto, Arial, Helvetica, sans-serif;
+}
+body {
+    background-color:rgb(145, 47, 214);
+}
+h1 {
+    color:rgb(255, 255, 255);
+    margin-left: 40px;
+}
+.parent-container {
+    display: flex;
+    flex-direction: row;
+}
+.child-container{
+    display:flex;
+    height: 120px;
+    width: 120px;
+    border: 2px solid white;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.child-container > img {
+    width: 50px;
+}
+.child-container:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 4px rgba(255, 255, 255, 0.56);
+}
+
